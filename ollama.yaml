@@ -4,7 +4,7 @@ envs:
 
 resources:
   cpus: 1
-  memory: 16  # 8 GB+ for 7B models, 16 GB+ for 13B models, 32 GB+ for 33B models
+  memory: 8+  # 8 GB+ for 7B models, 16 GB+ for 13B models, 32 GB+ for 33B models
   # accelerators: L4:1  # No GPUs necessary for Ollama, but you can use them to run inference faster
   ports: 8888
 
